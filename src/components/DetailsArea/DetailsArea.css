@@ -1,0 +1,31 @@
+.details-area-wrapper {
+  margin: 50px 0;
+}
+.details-area-wrapper .empty-detail {
+  margin-bottom: 20px
+}
+.details-area-wrapper .property-detail-wrapper h4 {
+  margin-bottom: 18px;
+}
+.details-area-wrapper .property-detail-wrapper .details .detail {
+  margin-bottom: 15px;
+}
+.details-area-wrapper .property-detail-wrapper .details .detail.double {
+  width: 50%;
+  float: left;
+}
+.details-area-wrapper .property-detail-wrapper .details .detail label {
+  margin-bottom: 0;
+  display: block;
+  color: #3700b3;
+  font-weight: 550;
+  margin-right: 5px;
+}
+.details-area-wrapper .property-detail-wrapper .details .detail .value {
+  text-transform: capitalize;
+}
+
+.details-area-wrapper .map-wrapper > div {
+  min-height: 600px;
+  position: static !important;
+}

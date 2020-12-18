@@ -1,0 +1,30 @@
+.filter-wrapper h3 {
+  margin-bottom: 15px;
+}
+.filter-wrapper .filters .filter-box {
+  margin-bottom: 15px;
+}
+.filter-wrapper .filters .filter-box label {
+  margin-right: 8px;
+  color: #3700b3;
+  font-weight: 500;
+}
+.filter-wrapper .filters .filter-box select {
+  margin-top: -4px;
+  text-transform: capitalize;
+}
+.filter-wrapper .clear-filter button{
+  background-color: #3700b3;
+  color: #fff;
+  display: table;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  padding: 8px 15px 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 6px rgba(0,0,0, 0.5);
+  transition: 200ms all;
+}
+.filter-wrapper .clear-filter button:active {
+  box-shadow: 4px -3px 6px rgba(0,0,0, 0.5);
+}
